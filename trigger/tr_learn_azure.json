@@ -1,0 +1,25 @@
+{
+	"name": "tr_learn_azure",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_ecdc",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2022-02-23T18:40:00Z",
+				"endTime": "2022-02-24T18:38:50Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
