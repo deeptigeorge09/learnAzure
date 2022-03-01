@@ -1,0 +1,9 @@
+{
+	"name": "learn-adf-deepti",
+	"location": "canadaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2e2952c4-7f45-48a8-955d-7d9663399ce3",
+		"tenantId": "4ed48e17-5c45-4c26-a253-b82834dcb9b8"
+	}
+}
