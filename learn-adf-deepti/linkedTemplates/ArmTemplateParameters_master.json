@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "learn-adf-deepti"
+		},
+		"ls_learnadlsdeepti_accountKey": {
+			"value": ""
+		},
+		"ls_learnsadeepti_connectionString": {
+			"value": ""
+		},
+		"ls_ecdc_http_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseUrl}"
+		},
+		"ls_learnadlsdeepti_properties_typeProperties_url": {
+			"value": "https://learnadlsdeepti.dfs.core.windows.net"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
