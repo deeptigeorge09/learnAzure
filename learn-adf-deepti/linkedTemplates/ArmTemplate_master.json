@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_learnsadeepti'"
 		},
+		"ls_databricks_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'ls_databricks'"
+		},
 		"ls_ecdc_http_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "@{linkedService().sourceBaseUrl}"
@@ -55,6 +59,9 @@
 					},
 					"ls_learnsadeepti_connectionString": {
 						"value": "[parameters('ls_learnsadeepti_connectionString')]"
+					},
+					"ls_databricks_accessToken": {
+						"value": "[parameters('ls_databricks_accessToken')]"
 					},
 					"ls_ecdc_http_properties_typeProperties_url": {
 						"value": "[parameters('ls_ecdc_http_properties_typeProperties_url')]"
